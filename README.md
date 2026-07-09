@@ -1,90 +1,242 @@
 # SentinelAI
 
-**An AI-Powered Explainable Threat Detection & Monitoring System**
+> **A Privacy-Preserving Explainable AI Framework for Public Safety, Crime Prevention, and Smart City Decision Support**
 
-[![Status](https://img.shields.io/badge/Status-Research%20Phase-yellow)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
----
-
-## 📌 Project Title
-
-**SentinelAI: An Explainable AI-Based Framework for Intelligent Threat Detection**
+![Research](https://img.shields.io/badge/Research-FYDP-blue)
+![Status](https://img.shields.io/badge/Status-Research%20Phase-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 🎯 Research Objective
+# 📖 Overview
 
-The primary objective of this research is to design, develop, and evaluate an
-Explainable Artificial Intelligence (XAI) framework capable of detecting and
-classifying security threats with high accuracy while providing transparent,
-human-interpretable reasoning for each decision made by the underlying model.
+**SentinelAI** is an AI-driven research project developed as a Final Year Design Project (FYDP) at **Daffodil International University**.
 
-This project aims to bridge the gap between the "black-box" nature of
-conventional deep learning models and the practical need for interpretability
-in security-critical applications.
+The project aims to design a **privacy-preserving**, **Explainable Artificial Intelligence (XAI)** framework capable of detecting public safety incidents in real time while supporting authorities with evidence-based decision-making.
 
----
+Unlike conventional surveillance systems that simply record video footage, SentinelAI transforms surveillance cameras into intelligent decision-support systems capable of identifying suspicious activities, assessing incident severity, generating explainable evidence, and assisting responsible authorities in improving public safety.
 
-## 🌟 Vision
-
-To build a professional, research-grade, and reproducible AI system that:
-
-- Demonstrates measurable improvement over existing baseline detection methods
-- Provides transparent and explainable predictions suitable for real-world deployment
-- Follows IEEE research and documentation standards throughout its lifecycle
-- Serves as a strong foundation for future publication in a Q1-ranked journal
+The proposed framework is intended for deployment in **smart public environments** including metro rail stations, universities, public parks, transportation hubs, hospitals, shopping malls, government facilities, and future smart cities.
 
 ---
 
-## 🔬 Research Scope
+# 🎯 Research Objective
 
-This research covers the complete lifecycle of an applied AI research project:
+The primary objective of SentinelAI is to develop a **Responsible AI framework** that integrates Computer Vision, Deep Learning, Explainable AI, and Intelligent Analytics for enhancing public safety.
 
-| Phase | Description |
-|-------|-------------|
-| Literature Review | Study of existing IEEE/Q1 journal papers and identification of research gaps |
-| Dataset Collection & Annotation | Acquisition, cleaning, and labeling of a suitable dataset |
-| Model Development | Design and training of detection/classification models |
-| Explainable AI (XAI) | Integration of interpretability techniques (e.g., SHAP, LIME, Grad-CAM) |
-| Evaluation | Performance benchmarking using standard research metrics |
-| Dashboard | Development of a visualization interface for results and explanations |
-| Thesis & Publication | Documentation and preparation for academic submission |
+The research aims to:
 
----
-
-## 🛠️ Technologies
-
-- **Programming Language:** Python
-- **Machine Learning / Deep Learning:** (To be finalized — e.g., PyTorch / TensorFlow)
-- **Explainability:** SHAP, LIME (planned)
-- **Data Handling:** Pandas, NumPy
-- **Visualization / Dashboard:** (To be finalized)
-- **Version Control:** Git & GitHub
-- **Documentation:** Markdown, Microsoft Word
+- Detect public safety incidents in real time.
+- Assist authorities through intelligent decision support.
+- Improve transparency using Explainable AI.
+- Preserve citizen privacy during AI-based surveillance.
+- Support evidence-based crime prevention strategies.
+- Provide data-driven public safety analytics.
+- Build a scalable framework suitable for smart city applications.
 
 ---
 
-## 🗺️ Research Roadmap
+# 🌍 Research Vision
+
+The long-term vision of SentinelAI is to contribute toward building **safer, smarter, and more secure public spaces** through responsible use of Artificial Intelligence.
+
+Rather than replacing human judgment, SentinelAI is designed as a **Human-in-the-Loop Decision Support System**, where AI assists security personnel by providing accurate detection, explainable predictions, and actionable insights while leaving final decisions to authorized officials.
+
+The research also aims to establish a strong foundation for future IEEE publications, Scopus-indexed journals, and high-impact Q1 research.
+
+---
+
+# 🚨 Problem Statement
+
+Although CCTV cameras are widely deployed in public places, most surveillance systems function only as passive recording devices.
+
+Current surveillance systems often suffer from:
+
+- Limited real-time incident detection.
+- Lack of explainability.
+- No intelligent risk prioritization.
+- Limited decision support.
+- Manual evidence review.
+- Poor integration of public safety analytics.
+- Insufficient privacy-aware AI mechanisms.
+
+These limitations delay emergency response and reduce the effectiveness of public safety management.
+
+---
+
+# 🔬 Research Scope
+
+SentinelAI is designed for intelligent monitoring of:
+
+- 🚇 Metro Rail Stations
+- 🎓 University Campuses
+- 🌳 Public Parks
+- 🏥 Hospitals
+- 🛍 Shopping Malls
+- 🚌 Bus Terminals
+- 🚉 Railway Stations
+- 🏟 Stadiums
+- 🏢 Government Offices
+- 🌆 Future Smart Cities
+
+---
+
+# 🧠 Proposed AI Detection Capabilities
+
+## Public Safety
+
+- Fighting
+- Physical Violence
+- Theft
+- Snatching
+- Suspicious Behaviour
+- Vandalism
+
+## Campus Safety
+
+- Ragging
+- Bullying
+- Unauthorized Entry
+
+## Women's Safety
+
+- Harassment Indicators
+- Emergency Situations
+
+## Environmental Safety
+
+- Smoking in Restricted Areas
+- Littering
+- Illegal Waste Disposal
+
+## Emergency Detection
+
+- Fire
+- Smoke
+- Crowd Panic
+- Person Falling
+- Abandoned Objects
+
+---
+
+# ⚙ Proposed Workflow
 
 ```
-July        →  Literature Review
-August      →  Dataset Collection & Annotation
-September   →  Model Training
-October     →  Explainable AI (XAI) Integration
-November    →  Dashboard Development
-December    →  Thesis Writing & Finalization
+Camera / Video Stream
+        │
+        ▼
+AI-Based Incident Detection
+        │
+        ▼
+Risk & Severity Assessment
+        │
+        ▼
+Explainable AI Module
+        │
+        ▼
+Evidence Generation
+        │
+        ▼
+Authority Notification
+        │
+        ▼
+Human Verification
+        │
+        ▼
+Decision Support Dashboard
+        │
+        ▼
+Analytics & Prevention Strategy
 ```
 
 ---
 
-## 📁 Repository Structure
+# 🔍 Explainable AI
+
+To improve transparency and trustworthiness, SentinelAI integrates Explainable AI (XAI).
+
+The system will provide:
+
+- Detection Region
+- Confidence Score
+- Visual Explanation
+- Prediction Reasoning
+- Model Interpretation
+
+This enables security personnel to understand why the AI detected a particular incident.
+
+---
+
+# 🔐 Privacy & Responsible AI
+
+SentinelAI follows responsible AI principles.
+
+Key design principles include:
+
+- Privacy by Design
+- Human-in-the-Loop
+- Secure Evidence Storage
+- Encryption
+- Audit Logging
+- Ethical AI
+- Explainability
+- Transparency
+
+**SentinelAI never makes legal decisions automatically.**
+
+The system only assists authorities by providing evidence and recommendations.
+
+---
+
+# 📊 Expected Contributions
+
+The research aims to contribute:
+
+- Bangladesh Public Safety Dataset (BPSD)
+- Privacy-Preserving AI Framework
+- Explainable AI Module
+- Public Safety Benchmark
+- Safety Severity Index (SSI)
+- Intelligent Decision Support Dashboard
+- Public Safety Analytics Framework
+
+---
+
+# 🛠 Technologies
+
+- Python
+- OpenCV
+- PyTorch
+- YOLOv11 (or latest stable version)
+- Vision Transformer (ViT)
+- Explainable AI (Grad-CAM, SHAP, LIME)
+- Streamlit / React
+- MySQL / PostgreSQL
+- Git & GitHub
+- Visual Studio Code
+
+---
+
+# 📅 Research Roadmap
+
+| Month | Activities |
+|--------|------------|
+| July | Literature Review & Research Gap |
+| August | Dataset Collection & Annotation |
+| September | Model Development & Training |
+| October | Explainable AI Integration |
+| November | Dashboard Development & Evaluation |
+| December | Thesis Writing & Final Project |
+
+---
+
+# 📂 Repository Structure
 
 ```
 SentinelAI
 │
 ├── Proposal
-├── Literature Review
+├── Literature_Review
 ├── Papers
 ├── Dataset
 ├── Annotation
@@ -101,36 +253,64 @@ SentinelAI
 
 ---
 
-## 👩‍🏫 Supervisor
+# 🎓 Academic Information
+
+**University:** Daffodil International University
+
+**Department:** Department of Computer Science and Engineering
+
+**Course:** CSE499 – Final Year Design Project
+
+---
+
+# 👩‍🏫 Supervisor
 
 **Ms. Nazmun Nessa Moon**
+
 Associate Professor
 
----
+Department of Computer Science and Engineering
 
-## 🎓 University
-
-**Daffodil International University**
+Daffodil International University
 
 ---
 
-## 👤 Author
+# 👨‍💻 Researcher
 
 **Md. Kamruzzaman Amit**
 
----
+Department of Computer Science and Engineering
 
-## 📄 License
-
-This project is licensed under the terms described in the [LICENSE](LICENSE) file.
+Daffodil International University
 
 ---
 
-## 📬 Contact
+# 📄 License
 
-For queries related to this research, please reach out through the repository's
-GitHub Issues section or contact the author/supervisor directly.
+This project is licensed under the MIT License.
 
 ---
 
-*This repository is maintained as part of a Final Year Design Project (FYDP) research initiative.*
+# 🚀 Research Status
+
+**Current Phase**
+
+✅ Proposal Development
+
+⬜ Literature Review
+
+⬜ Dataset Collection
+
+⬜ Model Development
+
+⬜ Explainable AI Integration
+
+⬜ Dashboard Development
+
+⬜ Thesis Writing
+
+⬜ Final Evaluation
+
+---
+
+> **SentinelAI is an ongoing FYDP research project focused on developing a privacy-preserving, explainable, and responsible AI framework for intelligent public safety, crime prevention, and smart city decision support.**
